@@ -3,7 +3,7 @@
 
 var assert = require('assert');
 var path = require('path');
-var sys = require('sys');
+var util = require('util');
 var Worker = require('../lib/webworker');
 
 var receivedMsg = false;

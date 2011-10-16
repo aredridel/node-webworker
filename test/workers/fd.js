@@ -1,6 +1,6 @@
 var assert = require('assert');
 var net = require('net');
-var sys = require('sys');
+var util = require('util');
 
 var s = undefined;
 

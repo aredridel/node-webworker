@@ -1,5 +1,5 @@
 var assert = require('assert');
-var sys = require('sys');
+var util = require('util');
 
 setTimeout(function() {
     assert.ok(false);
